@@ -1,0 +1,108 @@
+
+	/* Extra small devices (phones, less than 768px) */
+	/* No media query since this is the default in Bootstrap */
+
+	/* Small devices (tablets, 768px and up) */
+	@media (min-width: $screen-sm-min) {
+		width: $container-sm;
+	}
+
+	/* Medium devices (desktops, 992px and up) */
+	@media (min-width: $screen-md-min) {
+		width: $container-md;
+	}
+
+	/* Large devices (large desktops, 1200px and up) */
+	@media (min-width: $screen-lg-min) {
+		width: $container-large-desktop;
+	}
+
+
+/* Custom media queries */
+/* This is gonna help handle some layout conflicts */
+@media screen and (max-width: $screen-sm-min) {
+	.carousel-nav-btn{
+		text-align:left !important;
+	
+      	padding:0px 10px !important;
+	}
+	.widget{
+		margin-bottom:10px;
+	}
+	.logo-foot{
+		margin:28px 0px;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width: $screen-md-min) {
+	
+	.carousel-nav-btn{
+		font-size:12px !important;
+      	padding:2px 0px !important;
+	}
+}
+
+@media screen and (max-width: $screen-lg-min) {
+	.carousel-nav-btn{
+		font-size:24px;
+	}
+}
+
+
+.carousel-inner{
+			height:380px !important;
+		}
+
+.navbar{
+	@include container-fixed();
+}
+
+// This is nav-bar
+.navbar-nav{
+@include container-fixed(); 
+	
+}
+
+// This is carousel-nav button 
+.carousel-nav{
+	@include container-fixed();
+	section{
+		@include container-fixed();
+		.carousel-nav-btn{
+			@include make-lg-column(3);
+			@include make-md-column(3);
+			@include make-md-column(3);
+		}
+	}
+}
+
+#site-content{
+	@include container-fixed();
+	.site-widgets{
+		.widget{
+			@include make-sm-column(4);
+			
+		}
+	}
+}
+
+#site-content{
+		@include make-row();
+		.site-links{
+			@include make-lg-column(3);
+		}
+}
+
+.site-footer{
+	@include container-fixed();
+	.footer-item-one{
+		@include make-sm-column(6);
+	}
+	.footer-paragraph{
+		@include container-fixed();
+	}
+}
+
+
+

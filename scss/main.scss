@@ -11,13 +11,16 @@
 	@import "base/*.png";
 	@include all-base-sprites;
 
+//  Google fonts import
+@import url(http://fonts.googleapis.com/css?family=Orbitron);
+
 // ***************************************************
 	// Bootstrap Partials Preprocessor
 // ***************************************************
 
 //* Core variables and mixins
 // Core variables and mixins
-@import "variables";
+@import "theme/cbrmarketing";
 
 @import "../assets/stylesheets/bootstrap/mixins";
 
@@ -32,16 +35,16 @@
 // @import "../assets/stylesheets/bootstrap/code";
 // @import "../assets/stylesheets/bootstrap/grid";
 // @import "../assets/stylesheets/bootstrap/tables";
-@import "../assets/stylesheets/bootstrap/forms";
+@import "components/forms";
 // @import "../assets/stylesheets/bootstrap/buttons";
 
 // Components
 @import "../assets/stylesheets/bootstrap/component-animations";
-@import "../assets/stylesheets/bootstrap/dropdowns";
+@import "components/dropdowns";
 // @import "../assets/stylesheets/bootstrap/button-groups";
 // @import "../assets/stylesheets/bootstrap/input-groups";
 // @import "../assets/stylesheets/bootstrap/navs";
-@import "../assets/stylesheets/bootstrap/navbar";
+@import "components/navbar";
 // @import "../assets/stylesheets/bootstrap/breadcrumbs";
 // @import "../assets/stylesheets/bootstrap/pagination";
 // @import "../assets/stylesheets/bootstrap/pager";
@@ -62,12 +65,13 @@
 // @import "../assets/stylesheets/bootstrap/modals";
 // @import "../assets/stylesheets/bootstrap/tooltip";
 // @import "../assets/stylesheets/bootstrap/popovers";
-@import "../assets/stylesheets/bootstrap/carousel";
+@import "components/carousel";
 
 // Utility classes
 @import "../assets/stylesheets/bootstrap/utilities";
 @import "../assets/stylesheets/bootstrap/responsive-utilities";
-@import "layout";
+@import "layout/layout";
+@import "layout/site-content";
 
 
 

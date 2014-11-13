@@ -1,0 +1,45 @@
+div#site-content {
+	margin: 33px 0px 0px 0px;
+}
+
+.site-links {
+  color: #9c9c9c;
+  h4 {
+      border-bottom: 1px solid;
+      font-size: 14px;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+  }
+}
+
+.widget{
+
+	@include transition(background-color 1s .15s, color 1s);
+	img{
+		margin:0 auto;
+			&:hover{
+			@include opacity(0.8);
+		}
+	}
+}
+
+.site-footer{
+	background-color: #d0d0d0;
+	color: white;
+}
+
+.site-footer{
+	padding:18px 0px;
+	margin: 80px 0px 0px 0px;
+	.site-info{
+		
+		a{
+			color:#7a7979;
+			font-weight:bold;
+		}
+	}
+	.footer-paragraph{
+		color:#7a7979;
+		text-align:center;
+	}
+}

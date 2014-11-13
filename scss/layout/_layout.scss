@@ -36,7 +36,13 @@
 }
 
 @media screen and (max-width: $screen-md-min) {
-	
+	.navbar-nav{
+		padding: 0px !important;
+		margin: 0px !important;
+		li{
+			padding:10px
+		}
+	}
 	.carousel-nav-btn{
 		font-size:12px !important;
       	padding:2px 0px !important;

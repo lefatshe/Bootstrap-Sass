@@ -3076,19 +3076,27 @@ tbody.collapse.in {
     margin: 28px 0px;
     text-align: center; } }
 @media screen and (max-width: 992px) {
-  /* line 40, ../scss/layout/_layout.scss */
+  /* line 39, ../scss/layout/_layout.scss */
+  .navbar-nav {
+    padding: 0px !important;
+    margin: 0px !important; }
+    /* line 42, ../scss/layout/_layout.scss */
+    .navbar-nav li {
+      padding: 10px; }
+
+  /* line 46, ../scss/layout/_layout.scss */
   .carousel-nav-btn {
     font-size: 12px !important;
     padding: 2px 0px !important; } }
 @media screen and (max-width: 1200px) {
-  /* line 47, ../scss/layout/_layout.scss */
+  /* line 53, ../scss/layout/_layout.scss */
   .carousel-nav-btn {
     font-size: 24px; } }
-/* line 53, ../scss/layout/_layout.scss */
+/* line 59, ../scss/layout/_layout.scss */
 .carousel-inner {
   height: 380px !important; }
 
-/* line 57, ../scss/layout/_layout.scss */
+/* line 63, ../scss/layout/_layout.scss */
 .navbar {
   margin-right: auto;
   margin-left: auto;
@@ -3102,7 +3110,7 @@ tbody.collapse.in {
   .navbar:after {
     clear: both; }
 
-/* line 62, ../scss/layout/_layout.scss */
+/* line 68, ../scss/layout/_layout.scss */
 .navbar-nav {
   margin-right: auto;
   margin-left: auto;
@@ -3116,7 +3124,7 @@ tbody.collapse.in {
   .navbar-nav:after {
     clear: both; }
 
-/* line 68, ../scss/layout/_layout.scss */
+/* line 74, ../scss/layout/_layout.scss */
 .carousel-nav {
   margin-right: auto;
   margin-left: auto;
@@ -3129,7 +3137,7 @@ tbody.collapse.in {
   /* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
   .carousel-nav:after {
     clear: both; }
-  /* line 70, ../scss/layout/_layout.scss */
+  /* line 76, ../scss/layout/_layout.scss */
   .carousel-nav section {
     margin-right: auto;
     margin-left: auto;
@@ -3142,7 +3150,7 @@ tbody.collapse.in {
     /* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
     .carousel-nav section:after {
       clear: both; }
-    /* line 72, ../scss/layout/_layout.scss */
+    /* line 78, ../scss/layout/_layout.scss */
     .carousel-nav section .carousel-nav-btn {
       position: relative;
       min-height: 1px;
@@ -3157,22 +3165,22 @@ tbody.collapse.in {
       padding-left: 15px;
       padding-right: 15px; }
       @media (min-width: 1200px) {
-        /* line 72, ../scss/layout/_layout.scss */
+        /* line 78, ../scss/layout/_layout.scss */
         .carousel-nav section .carousel-nav-btn {
           float: left;
           width: 25%; } }
       @media (min-width: 992px) {
-        /* line 72, ../scss/layout/_layout.scss */
+        /* line 78, ../scss/layout/_layout.scss */
         .carousel-nav section .carousel-nav-btn {
           float: left;
           width: 25%; } }
       @media (min-width: 992px) {
-        /* line 72, ../scss/layout/_layout.scss */
+        /* line 78, ../scss/layout/_layout.scss */
         .carousel-nav section .carousel-nav-btn {
           float: left;
           width: 25%; } }
 
-/* line 80, ../scss/layout/_layout.scss */
+/* line 86, ../scss/layout/_layout.scss */
 #site-content {
   margin-right: auto;
   margin-left: auto;
@@ -3185,19 +3193,19 @@ tbody.collapse.in {
   /* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
   #site-content:after {
     clear: both; }
-  /* line 83, ../scss/layout/_layout.scss */
+  /* line 89, ../scss/layout/_layout.scss */
   #site-content .site-widgets .widget {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 83, ../scss/layout/_layout.scss */
+      /* line 89, ../scss/layout/_layout.scss */
       #site-content .site-widgets .widget {
         float: left;
         width: 33.33333%; } }
 
-/* line 90, ../scss/layout/_layout.scss */
+/* line 96, ../scss/layout/_layout.scss */
 #site-content {
   margin-left: -15px;
   margin-right: -15px; }
@@ -3208,19 +3216,19 @@ tbody.collapse.in {
   /* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
   #site-content:after {
     clear: both; }
-  /* line 92, ../scss/layout/_layout.scss */
+  /* line 98, ../scss/layout/_layout.scss */
   #site-content .site-links {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 1200px) {
-      /* line 92, ../scss/layout/_layout.scss */
+      /* line 98, ../scss/layout/_layout.scss */
       #site-content .site-links {
         float: left;
         width: 25%; } }
 
-/* line 97, ../scss/layout/_layout.scss */
+/* line 103, ../scss/layout/_layout.scss */
 .site-footer {
   margin-right: auto;
   margin-left: auto;
@@ -3233,18 +3241,18 @@ tbody.collapse.in {
   /* line 19, ../assets/stylesheets/bootstrap/mixins/_clearfix.scss */
   .site-footer:after {
     clear: both; }
-  /* line 99, ../scss/layout/_layout.scss */
+  /* line 105, ../scss/layout/_layout.scss */
   .site-footer .footer-item-one {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 768px) {
-      /* line 99, ../scss/layout/_layout.scss */
+      /* line 105, ../scss/layout/_layout.scss */
       .site-footer .footer-item-one {
         float: left;
         width: 50%; } }
-  /* line 102, ../scss/layout/_layout.scss */
+  /* line 108, ../scss/layout/_layout.scss */
   .site-footer .footer-paragraph {
     margin-right: auto;
     margin-left: auto;
